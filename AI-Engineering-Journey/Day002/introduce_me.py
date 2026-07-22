@@ -1,0 +1,5 @@
+print("My name is Benjamin Ntongho Timothy")
+print("I am from Nigeria")
+print("My goal is to become an AI engineer")
+print("My favorite technology is Artificial Intelligence")
+print("Message to my Future self: How does it feel knowing it worked out")
