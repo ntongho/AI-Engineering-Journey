@@ -1,0 +1,11 @@
+name = input("What is your name? ") 
+age = input("How old are you? ") 
+country= input("What country are you from? ") 
+dream_career = input("What is your dream Career? ") 
+
+print("-"*5,"PROFILE","-"*5)
+print("Name:",name)
+print("Age:",age)
+print("Country:",country)
+print("Dream Career:",dream_career)
+print("-"*25)
