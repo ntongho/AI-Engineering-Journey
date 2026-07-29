@@ -1,0 +1,2 @@
+How do dictionaries make information easier to understand than storing everything in a list?
+Ans: Dictionaries make information easier to understand by using labeled meaning instead of position numbers.
