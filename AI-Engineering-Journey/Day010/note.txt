@@ -1,0 +1,1 @@
+Welcome to my notes on AI engineering. All about file handling right now 

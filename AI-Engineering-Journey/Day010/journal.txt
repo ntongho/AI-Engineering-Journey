@@ -1,0 +1,2 @@
+ This is the first line of my Journal.
+This is the second line of my journal. It did not overwrite 
