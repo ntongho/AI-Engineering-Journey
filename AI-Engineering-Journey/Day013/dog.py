@@ -4,7 +4,7 @@ class Dog:
         self.breed = breed
 
     def bark(self):
-        print("Buddy says Woof!")
+        print(f"{self.name} says Woof!")
     
 Dog_1 = Dog("Willow","bull dog")
 
