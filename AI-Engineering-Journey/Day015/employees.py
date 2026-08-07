@@ -74,5 +74,5 @@ manager_1 = Manager("Mr.Hat", "$1000","Operations")
 developer_1 = Developer("Mr.B", "$900", "Python")
 
 print(developer_1.display_info())
-
-
+print()
+print(manager_1.display_info())     
