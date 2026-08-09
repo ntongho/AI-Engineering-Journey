@@ -38,4 +38,4 @@ circle_1 = Circle()
 print(circle_1.area(2))
 
 rect_1 = Rectangle()
-print(rect_1.area(2,4))
+print(rect_1.area(3,4))
