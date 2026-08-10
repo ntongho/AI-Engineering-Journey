@@ -21,21 +21,29 @@
 
 from math import pi as p
 
-class Shape():
+class Shape:
     def area(self):
         pass
 
 class Rectangle(Shape):
-    def area(self,length,breadth):
-        return length * breadth
     
+    def __init__(self,length,breadth):
+        self.length = length
+        self.breadth = breadth
+
+    def area(self):
+            print(self.length * self.breadth )
 class Circle(Shape):
-    def area(self,radius):
-        return p * radius * radius
+
+   
+    def __init__(self,radius):
+        self.radius = radius
+
+    def area(self):
+            print(p * self.radius * self.radius)
     
 
-circle_1 = Circle()
-print(circle_1.area(2))
+shapes = [Rectangle(1,4), Circle(4)]
 
-rect_1 = Rectangle()
-print(rect_1.area(3,4))
+for shape in shapes:
+    shape.area()
