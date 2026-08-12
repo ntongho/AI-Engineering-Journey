@@ -49,6 +49,10 @@ class PushNotification(Notification):
         print("Push sent")
 
 
-notifications = [EmailNotification(), SMSNotification(), PushNotification()]
+notifications = [
+    EmailNotification(), 
+    SMSNotification(), 
+    PushNotification()
+    ]
 for notification in notifications:
     notification.send()

@@ -64,7 +64,11 @@ class CryptoPayment(Payment):
     def pay(self):
         print("crypto payment successful")
 
-payments = [CardPayment(), CashPayment(), CryptoPayment()]
+payments = [
+    CardPayment(), 
+    CashPayment(), 
+    CryptoPayment()
+    ]
 
 for payment in payments:
     payment.pay()

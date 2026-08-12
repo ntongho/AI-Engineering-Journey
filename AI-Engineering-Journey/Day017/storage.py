@@ -32,17 +32,26 @@ class Storage(ABC):
 
 class FileStorage(Storage):
 
-        def save(self):
-            pass
+    def save(self):
+            print("Saving data to a file.")
     
-        def load(self):
-            pass
+    def load(self):
+            print("Loading data from a file.")
 
 class DatabaseStorage(Storage):
 
-     def save(self):
-          pass
+    def save(self):
+          print("Saving data to a database.")
 
-     def load(self):
-          pass
-    
+    def load(self):
+          print("Loading data from a database.")
+
+
+storage_system = [
+     FileStorage(),
+     DatabaseStorage()
+]
+
+for storage in storage_system:
+     storage.save()
+     storage.load()

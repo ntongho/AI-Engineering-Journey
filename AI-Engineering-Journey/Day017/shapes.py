@@ -22,7 +22,7 @@
 
 
 from abc import ABC, abstractmethod
-from math import pi as p
+from math import pi
 
 class Shape(ABC):
 
@@ -31,13 +31,13 @@ class Shape(ABC):
         pass
 
 class Rectangle(Shape):
-    def __init__(self,length,breadth):
+    def __init__(self, length, breadth):
         self.length = length
         self.breadth = breadth
 
     def area(self):
        area = self.length * self.breadth
-       print(area)
+       return area
 
 
 class Circle(Shape):
@@ -47,12 +47,15 @@ class Circle(Shape):
 
 
     def area(self):
-        area = p * self.radius * self.radius
-        print(area)
+        area = pi * self.radius ** 2
+        return area
 
 
-shapes = [Rectangle(4,3), Circle(4)]
+shapes = [
+    Rectangle(4,3), 
+    Circle(4)
+    ]
 
 for shape in shapes:
-    shape.area()
+    print(shape.area())
     
