@@ -6,4 +6,4 @@ map(): A built-in function that applies a specified function to every item in an
 filter(): A built-in function that extracts items from an iterable based on whether they meet a specific condition.
 Iterable: Any Python object capable of returning its members one at a time, allowing it to be looped over (e.g., lists, tuples, strings).
 Transformation: The process of modifying or changing the value/format of data elements (e.g., converting a list of numbers to their squares).
-Filtering: The process of selecting or keeping only the data elements that meet a specific condition while discarding the rest.
+Filtering: The process of selecting or keeping only the data elements that meet a specific condition while discarding the rest..
