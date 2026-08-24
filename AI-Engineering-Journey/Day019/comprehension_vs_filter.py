@@ -1,7 +1,8 @@
 names = ["Benjamin", "Ada", "Alexander", "Bob", "Christopher"]
 
-# List comprehension
+# List comprehension #
 big_names = [name for name in names if len(name) > 5]
+
 
 print(big_names)
 
